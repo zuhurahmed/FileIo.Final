@@ -76,7 +76,7 @@ public class FileHandling {
      * like all the file and extensions and if they are hidden or readable or writeable.
      *
      * @param path any given path to analyze and extract the information.
-     * @throws IOException throws an exception because of use of builtin methods.
+     * @throws IOException throws an exception because of use of built-in methods.
      */
     public static void summaryCreator(Path path) throws IOException {
         List<File> availableFiles = getFiles(path);
